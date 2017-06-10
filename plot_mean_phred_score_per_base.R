@@ -19,3 +19,5 @@ lines(colMeans(qual_file))
 
 #Adding a red colored grid for easy visualization
 grid (NULL,NULL, lty = 6, col = "red") 
+
+#Output is qual.png as attached here
