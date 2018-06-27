@@ -4,5 +4,10 @@ This program is an attempt to simluate the [Per Base Sequence Quality](https://w
 
 ### Input data
 
-A text file which is a matrix having [phred scores](https://en.wikipedia.org/wiki/Phred_quality_score). A row representing a read and a column representing base position.
-# i.e a 1000 X 150 matrix would mean, phred scores of `1000` reads for all `150` position (read lenght would be `150`).
+A text file which is a matrix having [phred scores](https://en.wikipedia.org/wiki/Phred_quality_score). A row representing a read and a column representing base position. i.e a `1000 X 150` matrix would mean, phred scores of `1000` reads for all `150` position (read lenght would be `150`).
+
+### Output 
+
+The output is a plot file in png format 
+
+![alt text](https://github.com/lakhujanivijay/R_programming_stuff/blob/master/Plot_average_phred_score_per_base/qual.png "plot")
